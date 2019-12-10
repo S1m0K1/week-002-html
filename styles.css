@@ -1,0 +1,92 @@
+/* TAG SELECTORS*/    
+    body {
+        background-color: #1e836c;
+        margin: auto;
+        margin: 0px 250px 0px 250px;
+
+    }
+    
+    h1 {
+        font-family: Georgia, serif;
+        color: white;
+        text-align: center;
+    /* What is em vs pixel size? */
+        font-size: 3.8em;
+        font-weight: 250;
+    }
+
+    h3 {
+        font-family: Georgia, serif;
+        color: white;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 250;
+    }
+    
+    hr {
+        border-style: none;
+        border-top-style: dotted;
+        color: white;
+        border-width: 5px;
+        width: 10%;
+    }
+
+    li {
+        list-style-type: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        color: white;
+        text-align: left;
+        padding: 5px;   
+    }
+
+    th {
+        background-color: #1e836c;
+        border-collapse: collapse;
+    /* How to make column lines run down vertical length of page body to the edges? - verticle divider? */   
+        height: 50px;
+        padding: 10px;
+        vertical-align: top;
+    }
+
+    td { 
+        list-style-type: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        color: white;
+        text-align: left; 
+        padding: 20px;
+        border-bottom: 1px solid white;  
+    }
+
+    div {
+        width: 500px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 25px 40px 25px 0px;
+    
+    }
+
+    p {
+        font-family: Georgia, serif;
+        color: white;
+        text-align: center;
+        font-size: 1em; 
+    }
+
+
+    footer {
+        font-family: Georgia, serif;
+        color: white;
+        text-align: center;
+        font-size: 1em;
+    }
+
+/* CLASS SELECTORS */
+
+/* ID SELECTORS */
+    #task-list {
+        border-collapse: collapse;
+        width: 100%;
+        padding: 20px;
+    }

@@ -6,47 +6,48 @@
     <title>toDoToday</title>
     <link rel="stylesheet" href="styles.css">    
 </head>
-<!-- Day view =/ mobile view -->
+
+<body>    
+    <div class="col-1-navback">
+<!-- Add back-navigation button -->        
+    </div>
+
+<!-- Why does my column not extend to top and bottom?! Why do I have a floating box?? -->    
+<!-- Is this a section? or a div? -->      
+<section>      
+    <div id="full" class="col-2-main">
     
-<body>  
-<!-- Does this need to be a <section>? or a <div>? or neither? -->  
-    <section id="date-top">
-        <header class="page-heading-date"></header>
+        <header>
             <h1>SUN,   <span style="font-size:2.5em;font-weight:500">8</span>   DEC</h1>
             <br>
             <hr>
         </header>
-    </section>
 
-<!-- <div>
-<button onclick="myFunction(addNewTask)">+</button>
-    </div> -->
-
-    <section>
-<!-- Is this an id or a class? How do I style it separately, as "tasks-list", not as div? -->
         <div class="tasks-list">
-            <ul>
-                
+            <ul>            
                 <li>1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br> 
                     <hr style="border-width:0.5px; border-style:solid; color: white; width: 100%">
                         <br>
                 <li><span style="text-decoration: line-through;">2 - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li><br>
                     <hr style="border-width:0.5px; border-style:solid; color: white; width: 100%">
                         <br>
-                <li>3 - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li><br>
-                    
-            </ul>        
-        </div>
-    </section>
-        
-        <br>
-        <br>
-        <br>
-    <hr>
-
-        <br>
-    <footer>
-        &copy; what's the 1 thing you want to do    |   toDOtoday 
-    </footer>
+                <li>3 - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li><br>                
+            </ul>  
+        </div>  
+            <br>
+            <br>
+            <br>
+        <footer>
+            <hr>
+            <br>
+                what's the 1 thing you want to do    |   toDOtoday 
+        </footer>
+    </div>
+</section>   
+    
+    <div class="col-3-navforward">
+<!-- Add back-navigation button -->  
+    </div>
+      
 </body>
 </html>

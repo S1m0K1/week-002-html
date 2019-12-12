@@ -1,10 +1,18 @@
-/* TAG SELECTORS*/
+/* TAG SELECTORS*/ 
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: white;
+    margin: 0;
+  }
 
 h1 {
     font-family: Georgia, serif;
     color: white;
     text-align: center;
-/* What is em vs pixel size? */
     font-size: 3.8em;
     font-weight: 250;
 }
@@ -13,10 +21,10 @@ h3 {
     font-family: Georgia, serif;
     color: white;
     text-align: center;
-    font-size: 2em;
-    font-weight: 250;
+    font-size: 2.5em;
+    font-weight: 150;
 }
-    
+
 hr {
     border-style: none;
     border-top-style: dotted;
@@ -28,19 +36,14 @@ hr {
 li {
     list-style-type: none;
     margin: auto;
+    width: 75%;
 }
 
 div {
     margin: auto;
     padding-top: 25px; 
-    padding-bottom: 100px;  
-}
-
-p {
-    font-family: Georgia, serif;
-    color: white;
-    text-align: center;
-    font-size: 1em; 
+    padding-bottom: 100px;
+    background-color: #1e836c;  
 }
 
 footer {
@@ -49,46 +52,53 @@ footer {
     color: white;
     text-align: center;
     font-size: 1em;
-    padding-top: 50px;
+    padding-top: 250px;
 }
 
-body { 
-    height: 100%; 
-    margin: 0px; 
-    padding: 0px;
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #1e836c;
+    border-bottom: 0.5px solid white;
 }
     
 /* CLASS SELECTORS */
-.col-1-navback {
-    border: collapse;
+      
+/* Left and right column */
+/* Make sidecolumns green/grey on white */
+.column-side {
     width: 25%;
-    background-color: white;
-  }
-  
-.col-2-main {
-    border: collapse;
-    width: 50%;
-    background-color: #1e836c; 
+    height: 100%;
+    float: left;
+    background-color: ;
 }
 
-.col-3-navforward {
-    border: collapse;
-    width: 25%;
-    background-color: white;
+/* Middle column */
+.column-main {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #1e836c;
+}
+
+/* Clear floats after the columns */
+.row:after {
+/* What does this mean! */
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .tasks-list {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     color: white;
     text-align: left;
-    width: 90%;
+    margin-top: 50px;
     padding: 5px;
 }
 
 /* ID SELECTORS */
-
-#full { 
-    background: #1e836c; 
-    height: 100%}
-}

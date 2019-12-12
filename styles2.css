@@ -52,7 +52,17 @@ footer {
     color: white;
     text-align: center;
     font-size: 1em;
-    padding-top: 100px;
+    padding-top: 250px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #1e836c;
+    border-bottom: 0.5px solid white;
 }
     
 /* CLASS SELECTORS */
@@ -76,6 +86,7 @@ footer {
 
 /* Clear floats after the columns */
 .row:after {
+/* What does this mean! */
     content: "";
     display: table;
     clear: both;

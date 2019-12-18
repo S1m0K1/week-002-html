@@ -1,14 +1,3 @@
-/* TAG SELECTORS*/ 
-
-* {
-    box-sizing: border-box;
-  }
-  
-body {
-    background-color: white;
-    margin: 0;
-  }
-
 h1 {
     font-family: Georgia, serif;
     color: white;
@@ -19,16 +8,17 @@ h1 {
 
 h3 {
     font-family: Georgia, serif;
-    color: white;
+    color: grey;
     text-align: center;
     font-size: 2.5em;
     font-weight: 150;
+    padding: 25% 0 0 0;
 }
 
 hr {
     border-style: none;
     border-top-style: dotted;
-    color: white;
+    /*color: white;*/
     border-width: 5px;
     width: 10%;
 }
@@ -36,14 +26,7 @@ hr {
 li {
     list-style-type: none;
     margin: auto;
-    width: 75%;
-}
-
-div {
-    margin: auto;
-    padding-top: 25px; 
-    padding-bottom: 100px;
-    background-color: #1e836c;  
+    width: 100%;
 }
 
 footer {
@@ -57,39 +40,12 @@ footer {
 
 input[type=text] {
     width: 100%;
-    padding: 10px;
+    /*padding: 10px;*/
     margin: 0;
     box-sizing: border-box;
     border: none;
     background-color: #1e836c;
     border-bottom: 0.5px solid white;
-}
-    
-/* CLASS SELECTORS */
-      
-/* Left and right column */
-/* Make sidecolumns green/grey on white */
-.column-side {
-    width: 25%;
-    height: 100%;
-    float: left;
-    background-color: ;
-}
-
-/* Middle column */
-.column-main {
-    width: 50%;
-    height: 100%;
-    float: left;
-    background-color: #1e836c;
-}
-
-/* Clear floats after the columns */
-.row:after {
-/* What does this mean! */
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .tasks-list {
@@ -99,6 +55,30 @@ input[type=text] {
     text-align: left;
     margin-top: 50px;
     padding: 5px;
+}
+
+/* TAG SELECTORS 
+What is this?
+* {
+    box-sizing: border-box;
+  }
+    
+/* CLASS SELECTORS */
+      
+/* Left and right column */
+/* .column-side {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: ;
+}
+
+/* Middle column */
+/* .column-main {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #1e836c;
 }
 
 /* ID SELECTORS */

@@ -4,72 +4,101 @@
 <head>
     <meta charset="utf-8">
     <title>toDoToday</title>
+    <link rel=“stylesheet” href=“https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css”
+        integrity=“sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh” crossorigin=“anonymous”>
     <link rel="stylesheet" href="styles.css">
 </head>
-<!-- navigation buttons:
-     <span style='font-size:100px; color: white'>&#10095;</span> 
-     <span style='font-size:100px; color: white'>&#10094;</span> -->
+
 <body>
-    <div class="row">
-        <div class="column-side">
-            <header>
-                <h1>7</h1>
-                <h3>Saturday</h3>   
-            </header>
-            <hr>
-        </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-side">
+                <h1 style="color: grey; padding: 50% 0 0 0">7</h1>
+                <h3>Saturday</h3>
+                <hr style="border-color: grey">
 
-        <div class="column-main">
-            <header>
-            <h1>Sunday</h1>
-            <h3>Dec 8, 2019</h3>
-            </header>
-            <hr>
+                <ul class="tasks-list">
+                    <li>
+                        <!-- class="tasks-done" .task-done {text-decoration: line-through;} -->
+                        <p span style="text-decoration: line-through; color: gray;">Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </li><br>
+                    <hr style="border-width:0.5px; border-style:solid; color: gray; width: 100%">
+                    <br>
+                    <li>
+                        <p span style="text-decoration: line-through; color: gray;">Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </li><br>
+                    <hr style="border-width:0.5px; border-style:solid; color: gray; width: 100%">
+                    <br>
+                </ul>
+            </div>
 
-            <ul class="tasks-list">
-                <li>
-                    <p>1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </li><br>
-                <hr style="border-width:0.5px; border-style:solid; color: white; width: 75%">
-                <br>
-                <li>
-                    <p><span style="text-decoration: line-through;">2 - Ut enim ad minim veniam, quis nostrud
-                            exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
-                </li><br>
-                <hr style="border-width:0.5px; border-style:solid; color: white; width: 75%">
-                <br>
-                <li>
-                    <p>3 - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur</p>
-                </li>
-                <hr style="border-width:0.5px; border-style:solid; color: white; width: 75%">
-                <br>
-                <br>
+            <div class="col-main" style="background-color: #1e836c; padding: 5% 10% 15% 10%">
+                <header>
+                    <h1>8</h1>
+                    <h1>Sunday</h1>
+                    <h3 style="padding: 0 0 25% 0; color: white">Dec, 2019</h3>
+                </header>
+                <hr style="border-color: white; width: 25%;">
 
-                <li>
-                    <form>
-                        <label for="newTask"><span style='font-size:50px;'>&#9998</span></label>
-                        <input type="text" id="newTask" name="newTask">
-                    </form>
-                </li>
-            </ul>
+                <ul class="tasks-list">
+                    <li>
+                        <p>Double-click todos to edit.</p>
+                    </li><br>
+                    <hr style="border-width:0.5px; border-style:solid; color: white; width: 100%">
+                    <br>
+                    <li>
+                        <p span style="text-decoration: line-through;">Click todos to mark as done.</p>
+                    </li><br>
+                    <hr style="border-width:0.5px; border-style:solid; color: white; width: 100%">
+                    <br>
 
-            <footer>
-                what's the 1 thing you want to do | toDOtoday
-            </footer>
+                    <li>
+                        <p>Drag todos to the top or bottom of the list, or to the next column.</p>
+                    </li>
+                    <hr style="border-width:0.5px; border-style:solid; color: white; width: 100%">
+                    <br>
+                    <br>
 
-        </div>
+                    <li>
+                        <form>
+                            <label for="newTask"><span style="font-size:50px; margin: 10% 0 0 0;">&#9998;</span></label>
+                            <input type="text" id="newTask" name="newTask">
+                        </form>
+                    </li>
+                </ul>
 
-        <div class="column-side">
-            <header>
-                <h1>9</h1>
-                <h3>Monday</h3>
-            </header>
-            <hr>
+                <footer>
+                    what's the 1 thing you want to do | toDOtoday
+                </footer>
+            </div>
+
+            <div class="col-side">
+                <h1 style="color: #1e836c; padding: 50% 0 0 0">9</h1>
+                <h3 style="color: #1e836c;">Monday</h3>
+                <hr style="border-color: #1e836c;">
+                <!-- class="tasks-todo" .tasks-todo {text-decoration: line-through;} -->
+                <ul class="tasks-list">
+                    <li>
+                        <p span style="color: #1e836c;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </li><br>
+                    <hr style="border-width:0.5px; border-style:solid; color: #1e836c; width: 100%">
+                    <br>
+                    <li>
+                        <p span style="color: #1e836c;">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla
+                            pariatur</p>
+                    </li>
+                    <hr style="border-width:0.5px; border-style:solid; color:#1e836c; width: 100%">
+            </div>
         </div>
     </div>
+
 
 </body>
 

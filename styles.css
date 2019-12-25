@@ -54,11 +54,11 @@ input[type=text] {
     color: white;
     text-align: left;
     margin-top: 50px;
+    margin-left: ;
     padding: 5px;
 }
 
-/* TAG SELECTORS 
-What is this?
+/* TAG SELECTORS */ 
 * {
     box-sizing: border-box;
   }
@@ -66,17 +66,18 @@ What is this?
 /* CLASS SELECTORS */
       
 /* Left and right column */
-/* .column-side {
+.col-side {
     width: 25%;
-    height: 100%;
+    height: auto;
     float: left;
     background-color: ;
+    margin: ;
 }
 
 /* Middle column */
-/* .column-main {
+.col-main {
     width: 50%;
-    height: 100%;
+    height: auto;
     float: left;
     background-color: #1e836c;
 }

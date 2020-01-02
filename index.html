@@ -2,48 +2,42 @@
 <html lang="en">
 
 <head>
-    <title>toDoToday</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=“stylesheet” href=“https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css”
-        integrity=“sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh” crossorigin=“anonymous”>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <title>toDoToday</title>
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-side">
+            <div class="side col-sm-3">
                 <h1 style="color: grey; padding: 50% 0 0 0">7</h1>
                 <h3>Saturday</h3>
                 <hr style="border-color: grey">
-
                 <ul class="tasks-list">
                     <li>
                         <p span style="text-decoration: line-through; color: gray;">Ut enim ad minim veniam, quis
-                            nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </li><br>
                     <hr style="border-width:0.5px; border-style:solid; color: gray; width: 100%">
                     <br>
                     <li>
                         <p span style="text-decoration: line-through; color: gray;">Ut enim ad minim veniam, quis
-                            nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </li><br>
-                    <hr style="border-width:0.5px; border-style:solid; color: gray; width: 100%">
+                    <hr style="border-width: 0.5px; border-style: solid; color: gray; width: 100%">
                     <br>
                 </ul>
             </div>
-
-            <div class="col-main" style="background-color: #1e836c; padding: 5% 10% 15% 10%">
+            <div class="main col-sm-6" style="background-color: #1e836c; padding: 5% 10% 15% 10%">
                 <header>
                     <h1>8</h1>
                     <h1>Sunday</h1>
                     <h3 style="padding: 0 0 25% 0; color: white">Dec, 2019</h3>
                 </header>
                 <hr style="border-color: white; width: 25%;">
-
                 <ul class="tasks-list">
                     <li>
                         <p>Double-click todos to edit.</p>
@@ -55,34 +49,28 @@
                     </li><br>
                     <hr style="border-width:0.5px; border-style:solid; color: white; width: 100%">
                     <br>
-
                     <li>
                         <p>Drag todos to the top or bottom of the list, or to the next column.</p>
                     </li>
                     <hr style="border-width:0.5px; border-style:solid; color: white; width: 100%">
                     <br>
                     <br>
-
                     <li>
                         <form>
-                            <label for="newTask"><span style="font-size:50px; margin: 10% 0 0 0;">&#9998;</span></label>
+                            <input type="button" class="btn" style="color: white; font-size: 50px;" value="&#9998;">
                             <input type="text" id="newTask" name="newTask">
                         </form>
                     </li>
                 </ul>
-
-                <footer>
-                    what's the 1 thing you want to do | toDOtoday
-                </footer>
+                <footer> what's the 1 thing you want to do | toDOtoday </footer>
             </div>
-
-            <div class="col-side">
+            <div class="side col-sm-3">
                 <h1 style="color: #1e836c; padding: 50% 0 0 0">9</h1>
                 <h3 style="color: #1e836c;">Monday</h3>
                 <hr style="border-color: #1e836c;">
                 <ul class="tasks-list">
                     <li>
-                        <p span style="color: #1e836c;">Undone todos will automatically move to the next day.</p>
+                        <p span style="color: #1e836c;">Undone todos will migrate to the next day.</p>
                     </li><br>
                     <hr style="border-width:0.5px; border-style:solid; color: #1e836c; width: 100%">
                     <br>
@@ -91,10 +79,10 @@
                             cillum dolore eu fugiat nulla pariatur</p>
                     </li>
                     <hr style="border-width:0.5px; border-style:solid; color:#1e836c; width: 100%">
+                </ul>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
